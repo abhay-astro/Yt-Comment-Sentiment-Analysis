@@ -36,7 +36,7 @@ def getComment(url):
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyCTw6EKjTjzEwZEu3Y9szp39RvpW5HyBCk"
+    DEVELOPER_KEY = ""
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
